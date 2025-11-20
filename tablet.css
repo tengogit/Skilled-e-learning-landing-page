@@ -1,0 +1,91 @@
+@media(width>768px) {
+
+    .cont {
+        width: 768px;
+        display: flex;
+    }
+
+    header {
+        width: 768px;
+        height: auto;
+    }
+
+    .headline {
+        width: 680px;
+        height: 88px;
+    }
+
+    .headbox {
+        width: 680px;
+        height: 400px;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .txtbox {
+        width: 328px;
+        height: 317px;
+    }
+
+    .imgbox {
+        width: 328px;
+        height: 400px;
+        margin: 0;
+    }
+
+    .girlmob {
+        display: none;
+    }
+
+    .girltab {
+        display: inline;
+        position: relative;
+        top: -188px;
+        left: 3px;
+    }
+
+    main {
+        width: 680px;
+        height: 1114px;
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 24px;
+
+
+
+    }
+
+    .checkbox {
+        width: 328px;
+        height: 322px;
+        /* margin-top: 28px; */
+    }
+
+    .card {
+        width: 328px;
+        height: 350px;
+        margin: 0;
+    }
+
+    footer {
+        margin-top: 30px;
+        width: 100vw;
+
+    }
+
+    h3 {
+        font-size: 32px;
+        margin-top: 64px;
+    }
+
+    h1,
+    h2 {
+        width: 457px;
+    }
+
+    h1 {
+        font-size: 56px;
+    }
+
+
+}

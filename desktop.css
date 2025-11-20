@@ -1,0 +1,126 @@
+@media(width>1440px) {
+    .cont {
+        width: 1440px;
+        height: auto;
+
+    }
+
+    bo header {
+        width: 1440px;
+        padding-left: 160px;
+    }
+
+    .headline {
+        width: 1120px;
+        height: 59px;
+
+    }
+
+    .headbox {
+        width: 1120px;
+        height: 560px;
+
+    }
+
+    .txtbox {
+        width: 544px;
+        height: 339px;
+        margin-top: 110.5px;
+    }
+
+    .imgbox {
+        width: 544px;
+        height: 560px;
+    }
+
+    .girltab {
+        display: none;
+    }
+
+    .girldes {
+        display: inline;
+        position: relative;
+        top: -40px;
+        left: 153px;
+        width: 544px;
+        height: 580px;
+    }
+
+    main {
+        width: 1120px;
+        height: 756px;
+        margin-left: 0px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 32px;
+        row-gap: 26px;
+
+
+
+
+
+    }
+
+    h5 {
+        width: 288px;
+        height: 105px;
+    }
+
+    .checkbox,
+    .card {
+        width: 328px;
+        height: 350px;
+    }
+
+    .card {
+        margin: 0;
+    }
+
+    footer {
+        width: auto;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 800px;
+        height: 150px;
+        width: 100vw;
+        margin-top: 140px;
+    }
+
+    .endline {
+        width: 100vw;
+        height: 100px;
+    }
+
+    button {
+        pointer-events: all;
+    }
+
+    .act1:hover {
+        cursor: pointer;
+        background-color: #666CA3;
+    }
+
+    .act2:hover {
+        cursor: pointer;
+        opacity: 50%;
+    }
+
+    .btnf:hover {
+        cursor: pointer;
+        opacity: 50%;
+
+    }
+
+    .atxt:hover {
+        cursor: pointer;
+        opacity: 50%;
+    }
+
+    .card:hover {
+        background-color: orange;
+        transition: ease-in-out 0.5s;
+        transform: scale(1.3);
+    }
+
+
+}
