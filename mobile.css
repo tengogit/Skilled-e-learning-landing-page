@@ -15,11 +15,12 @@ body {
     user-select: none;
     font-family: "Plus Jakarta Sans", sans-serif;
     overflow-x: hidden;
+    padding-left:25px;
 
 }
 
 .cont {
-margin-left:20px;
+
     width: 375px;
     height: auto;
     
