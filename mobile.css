@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
+html, body {
+  overflow-x: hidden!important;
+}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-      outline: 1px solid red;
 }
 
 body {
@@ -211,6 +213,10 @@ footer {
     animation: bounce 1.5s infinite ease-in-out;
 
 }
+.girlmob{
+    width:335px;
+}
+
 
 @keyframes bounce {
 
